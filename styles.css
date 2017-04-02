@@ -158,6 +158,7 @@ hr.q-divider{
   margin: 0 auto;
   overflow: hidden;
   padding: 0;
+  position: relative;
 }
 
 #add-guest-bonus .guest {
@@ -179,4 +180,6 @@ hr.q-divider{
     vertical-align: middle;
     margin: 0 10px;
     background: red;
-    }
+    position: absolute;
+    right: 2px;
+}
